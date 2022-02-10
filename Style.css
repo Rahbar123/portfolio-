@@ -17,11 +17,8 @@
   background-color: #04AA6D;
   color: white;
 }
-body{
-  margin: 0;
-}
 .body{
-  background-image: linear-gradient(rgba(0,0,0,0.56),rgba(0,0,0,0.56)),url('back.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.62)),url('back.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
