@@ -98,7 +98,7 @@ footer{
   font-size: 15px;
   color: white;
   text-align: center;
-  padding-bottom: 10px;
+  padding-top: 200px;
 }
 footer span{
   color: #00ffff;
@@ -212,7 +212,7 @@ footer span{
      color: purple;
    }
    .foot-1{
-     padding-top: 160px;
+     padding-top: 180px;
    }
    .place-para p{
      font-size: 24px;
