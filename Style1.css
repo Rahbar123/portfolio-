@@ -80,7 +80,7 @@ h1{
 .contact-form .text-box{
   background: #000;
   width: 92%;
-  color: #000;
+  color: #fff;
   font-size: 15px;
   border: none;
   border-radius: 5px;
@@ -91,11 +91,12 @@ h1{
   .contact-form .text-box:hover{
     background-color: white;
     border-color: white;
+    color: #000;
   }
 .contact-form textarea{
   background: #000;
   width: 92%;
-  color: #000;
+  color: #fff;
   font-size: 15px;
   border: none;
   border-radius: 5px;
@@ -104,6 +105,7 @@ h1{
 }
 .contact-form textarea:hover{
   background-color: white;
+  color: #000
 }
 .contact-form .send-btn{
   padding-bottom: 50px;
