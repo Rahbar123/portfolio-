@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:  'Roboto Condensed', sans-serif;
+}
+.topnav a:hover {
+  color: #00ffff;
+}
+.topnav a.active {
+  background-color: #04
+  color: white;
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('phone.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+  color: #FAEEE7;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 70px;
+}
+.contact-section{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+.contact-info{
+  color: #fff;
+  max-width: 500px;
+  line-height: 55px;
+  padding-left: 50px;
+  font-size: 18px;
+  padding-top: 100px;
+}
+.contact-info i{
+  margin-right: 17px;
+  font-size: 25px;
+  color: #00ffff;
+}
+.mail{
+  color: #fff;
+  text-decoration: none;
+ }
+ .mail:hover{
+   color: #00ffff;
+   font-size: 20px;
+   margin-top: 5px;
+   font-weight: bold;
+ }
+ .contact-h2{
+   text-align: left;
+   color: #FAEEE7;
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   margin-bottom: 12px;
+ }
+.contact-form .text-box{
+  background: #000;
+  width: 92%;
+  color: #000;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  padding: 12px;
+  margin-bottom: 20px;
+  }
+  .contact-form .text-box:hover{
+    background-color: white;
+    border-color: white;
+  }
+.contact-form textarea{
+  background: #000;
+  width: 92%;
+  color: #000;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  height: 300px;
+}
+.contact-form textarea:hover{
+  background-color: white;
+}
+.contact-form .send-btn{
+  padding: 12px;
+  margin-bottom: 100px;
+  float: center;
+  background: #2E94E3;
+  border: none;
+  border-radius: 5px;
+  width: 92%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  transition-property: background;
+ }
+ .contact-form .send-btn:hover{
+   background: #0582E3;
+   color: #fff;
+ }
+ .send-btn a{
+   text-decoration: none;
+   color: #fff;
+ }
+ 
+ .foot-4{
+   color:white;
+   text-align: center;
+   font-size: 15px;
+   padding-right: 10px;
+    }
+ .foot-4 span{
+   color: #00ffff;
+   font-size: 16px;
+ }
+ 
