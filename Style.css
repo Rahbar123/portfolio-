@@ -136,6 +136,9 @@ footer span{
    color: white;
    font-size: 18px;
  }
+table,td{
+   border: none;
+ }
  td{
    font-size: 25px;
    color: white;
